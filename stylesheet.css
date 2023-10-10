@@ -1,1 +1,20 @@
-p {color: blue;}
+#mainsectioncontainer {
+display: flex;
+justify-content: center;
+min-width: 100vw;
+background-color: white;
+}
+
+#mainsection {
+background-color: grey;
+width: 80vw;
+border-radius: 35px;}
+
+#mainsectioncontent {
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+
+.headingwithicon {
+    font-family: Arimo, sans-serif;
+}
