@@ -1,10 +1,37 @@
 body {background-color: #F7F1FF;
-    font-family: 'Kantumruy Pro', sans-serif;}
+    font-family: 'Kantumruy Pro', sans-serif;
+margin: 0px;
+margin-top: 0px;
+padding: 0px;
+max-width: 100vw;}
+
+
+    #uppersection {
+font-size: 22px;
+font-family: 'Kantumruy Pro', sans-serif;
+background-color: #8029ED;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+
+@media (max-width: 768px){
+    #uppersection{
+       font-size: 16px;
+     }
+ }
+#mainheader {
+text-align: center;}
+
+
 
 #mainsectioncontainer {
 display: flex;
 justify-content: center;
-min-width: 100vw;
+
+max-width: 100vw;
 }
 
 #mainsection {
@@ -17,14 +44,49 @@ border-radius: 35px;}
     margin-right: 100px;
     }
 
+@media (max-width: 768px){
+    #mainsectioncontent {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 .headingwithicon {
+    font-size: 20px;
     font-family: 'Kantumruy Pro', sans-serif;
     color: #8029ED;
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 768px){
+    .headingwithicon {
+       font-size: 16px;
+     }
+ }
+
+ @media (max-width: 768px){
+    p {
+       font-size: 14px;
+     }
+ }
+
+
+@media (max-width: 768px){
+    .headingwithicon {
+        justify-content: center;
+    }}
+    
 .icon {height: 75px;
 margin-right: 25px;}
+
+@media (max-width: 768px){
+    .icon {
+       height: 50px;
+       margin-right: 15px;
+     }
+ }
+
 
 .imageholder {
   display: flex;
@@ -32,8 +94,23 @@ margin-right: 25px;}
  
   .img1 {width: 40vw;}
 
+  @media (max-width: 768px){
+   .img1 {
+       width: 70vw
+    }
+}
+
 .smallimage{width: 10vw;
 margin-left: 4vw;
 margin-right: 4vw;}
+
+@media (max-width: 768px){
+    .smallimage {
+       width: 20vw;
+       margin-left: 20px;
+       margin-right: 20px;
+       
+     }
+ }
 
 
