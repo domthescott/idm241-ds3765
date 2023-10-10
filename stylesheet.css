@@ -1,12 +1,13 @@
+body {background-color: #F7F1FF;}
+
 #mainsectioncontainer {
 display: flex;
 justify-content: center;
 min-width: 100vw;
-background-color: white;
 }
 
 #mainsection {
-background-color: grey;
+background-color: white;
 width: 80vw;
 border-radius: 35px;}
 
@@ -16,5 +17,10 @@ border-radius: 35px;}
     }
 
 .headingwithicon {
-    font-family: Arimo, sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: #8029ED;
+    display: flex;
+    align-items: center;
 }
+.icon {height: 75px;
+margin-right: 25px;}
