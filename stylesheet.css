@@ -15,14 +15,18 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-bottom: 50px;
+flex-direction: column;
 }
+
+a {color: white;
+    font-family: 'Kantumruy Pro', sans-serif;}
 
 @media (max-width: 768px){
     #uppersection{
        font-size: 16px;
      }
  }
-#mainheader {
+#mainheader { 
 text-align: center;}
 
 
