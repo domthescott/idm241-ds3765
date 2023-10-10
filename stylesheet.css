@@ -26,14 +26,14 @@ border-radius: 35px;}
 .icon {height: 75px;
 margin-right: 25px;}
 
-#imageholder {
+.imageholder {
   display: flex;
   justify-content: center;
    
 }
 
 
-#img1 {max-width: 600px;
+.img1 {width: 40vw;
 
 }
 
