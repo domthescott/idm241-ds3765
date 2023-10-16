@@ -1,0 +1,14 @@
+
+
+.NavItem {
+height: 100px;
+width: 100px;
+    background-color: red;
+}
+
+.line {width: 0px;
+height: 50px;
+background-color: blue;
+position: absolute;
+top: 50%;
+left: 100%;}
