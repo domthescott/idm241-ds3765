@@ -1,14 +1,38 @@
-
-
-.NavItem {
-height: 100px;
-width: 100px;
-    background-color: red;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.line {width: 0px;
-height: 50px;
-background-color: blue;
-position: absolute;
-top: 50%;
-left: 100%;}
+.NavItemHolder {display: flex;
+justify-content: center;}
+
+.Navitem {
+    width: 100px;
+    height: 100px;
+    font-size: 42px;
+    background: lightblue;
+    position: relative;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.line {
+    width: 0;
+    height: 50px;
+    background: red;
+    position: absolute;
+    top: 25%;
+    left: 100%;
+    transform: translateY(-1px); 
+    transition: width 0.3s, left 0.3s; 
+}
+
+.Navitem:hover .line {
+    width: 500px; 
+    left: 100%; 
+}
