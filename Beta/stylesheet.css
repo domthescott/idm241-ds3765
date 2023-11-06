@@ -34,9 +34,36 @@ text-align: center;}
     justify-content: center;
 }
 
+h1 {text-align: center;}
+
 .exampleimage1 {width: 150px;}
 
+
+@media (max-width: 768px){
+    .exampleimage1 {
+      width: 100px;
+    }
+}
+
+@media (max-width: 480px){
+    .exampleimage1 {
+      width: 75px;
+    }
+}
+
 .exampleimage2 {width: 450px}
+
+@media (max-width: 768px){
+    .exampleimage2 {
+      width: 300px;
+    }
+}
+
+@media (max-width: 480px){
+    .exampleimage2 {
+      width: 200px;
+    }
+}
 
 #examples {display: flex;
 flex-direction: column;}
