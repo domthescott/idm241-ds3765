@@ -29,7 +29,17 @@ a {color: white;
 #mainheader { 
 text-align: center;}
 
+#exampleholder {width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.exampleimage1 {width: 150px;}
+
+.exampleimage2 {width: 450px}
+
+#examples {display: flex;
+flex-direction: column;}
 
 #mainsectioncontainer {
 display: flex;
