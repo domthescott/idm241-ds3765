@@ -17,6 +17,11 @@
     
     }
     
+    .Navitem:active {
+        transform: scale(0.95); 
+        color: #999; 
+      }
+
     @media screen and (max-width: 768px) {
     
         .Navitem {
