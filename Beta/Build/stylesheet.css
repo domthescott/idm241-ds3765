@@ -22,6 +22,10 @@
         color: #999; 
       }
 
+      .Navitem:active .line {
+        background: #999; 
+      }
+
     @media screen and (max-width: 768px) {
     
         .Navitem {
