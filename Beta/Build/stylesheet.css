@@ -2,9 +2,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition: all 0.3s;;}
+    transition: all 0.3s;
+   }
+
+
 
     .Navitem {
+        opacity: 1;
+    animation: fadeIn 1.5s ease-in-out;
         font-family: 'Gabarito', sans-serif;
         font-size: 64px;
         text-decoration: underline;
@@ -15,6 +20,16 @@
     justify-content: center;
     align-items: center;
     
+    
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
     
     .Navitem:active {
