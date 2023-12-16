@@ -95,6 +95,7 @@ justify-content: space-around;
             padding-right: 10px;
             flex-direction: column;
         align-items: center;
+
        
     
         }
@@ -108,7 +109,10 @@ justify-content: space-around;
         flex-direction: column;
         align-items: center;
         width: 35%;
+        margin-bottom: 20px;
     }
+
+    li {margin-top: 8px;}
 
     @media screen and (max-width: 768px) {
     
